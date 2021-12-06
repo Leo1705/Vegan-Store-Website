@@ -1,0 +1,316 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  background-color: rgb(255, 255, 255);
+  max-height: 80px;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  position: fixed;
+  max-height: 10%;
+}
+
+.menu {
+  display: flex;
+}
+.right-side {
+  display: flex;
+  position: absolute;
+  right: 2vw;
+}
+.menu-item {
+  padding-right: 30px;
+  list-style: none;
+  margin-top: 3%;
+
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+.btn-buy {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(170, 210, 54);
+  padding: 9px 34px;
+
+  border-radius: 4px;
+  margin-top: 20px;
+
+  text-align: center;
+  max-height: 30%;
+  height: 100%;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  padding: 15px;
+  padding-left: 25px;
+  padding-bottom: 20px;
+}
+.home-page {
+  background-image: url("images/background.png");
+  width: 100vw;
+  height: 100vh;
+  max-height: 95vh;
+}
+.main-text {
+  font-size: 44px;
+  font-weight: 600;
+  letter-spacing: 8.8px;
+  line-height: 1.2;
+
+  width: 100%;
+
+  max-width: 80%;
+  text-align: center;
+}
+.text {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #8b8b99;
+  text-align: center;
+  max-width: 85%;
+}
+.content {
+  position: relative;
+  float: left;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 15%;
+}
+.steps-page {
+  display: flex;
+  text-align: center;
+}
+.step-1 {
+  max-width: 25%;
+  max-height: 50%;
+  background-color: #5acda6;
+  font-size: 100%;
+  padding: 50px;
+}
+.step-2 {
+  max-width: 25%;
+  max-height: 50%;
+  background-color: #91ac41;
+  padding: 50px;
+}
+.step-3 {
+  max-width: 25%;
+  max-height: 50%;
+  background-color: #e4b476;
+  padding: 50px;
+}
+.step-4 {
+  max-width: 25%;
+  max-height: 70%;
+  background-color: #f69dad;
+  padding: 50px;
+  padding-bottom: 150px;
+}
+.fa-smile,
+.fa-shopping-bag,
+.fa-paint-brush,
+.fa-cut {
+  color: white;
+}
+.icon-steps {
+  font-size: 100px;
+}
+.step1-main,
+.step2-main,
+.step3-main,
+.step4-main {
+  color: white;
+  font-weight: 600;
+  font-size: 23px;
+}
+.step1-text,
+.step2-text,
+.step3-text,
+.step4-text {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  color: white;
+  max-width: 95%;
+  text-align: center;
+}
+.section-3 {
+  background-color: #f7eee2;
+  padding-top: 5px;
+
+  max-width: 100%;
+  height: 100%;
+  text-align: center;
+  max-height: 90%;
+  padding-bottom: 100px;
+}
+.title {
+  color: #91ac41;
+  font-size: 20px;
+  font-family: "Caveat", cursive;
+  margin: 0;
+  margin-top: 100px;
+
+  font-style: italic;
+}
+.main-text {
+  font-size: 44px;
+  font-weight: 600;
+  padding: 0px;
+  margin: 0%;
+  margin-left: 10%;
+  padding-top: 10px;
+}
+.under-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #8b8b99;
+  letter-spacing: 0.5px;
+  padding: 0px;
+  padding-bottom: 20px;
+}
+.section-items {
+  display: flex;
+  text-align: center;
+  max-width: 75%;
+  margin-left: 15%;
+  padding-top: 10px;
+}
+.fa-camera,
+.fa-rocket,
+.fa-twitter,
+.fa-weixin {
+  background-color: #e3b375;
+  font-size: 60px;
+  color: white;
+  padding: 40px;
+
+  border-radius: 50%;
+}
+.text-section-main {
+  font-size: 24px;
+  font-weight: 600;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+.section-text {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: #8b8b99;
+  max-width: 75%;
+  padding-left: 15%;
+}
+.high,
+.sale,
+.best,
+.fresh {
+  padding-right: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+.sale {
+  margin-left: -7%;
+}
+.best {
+  margin-left: -7%;
+}
+.fresh {
+  margin-left: -2%;
+}
+.section-4 {
+  text-align: center;
+  background-color: white;
+}
+.section-items4 {
+  display: flex;
+  max-width: 90%;
+  max-height: 10%;
+
+  font-size: 16px;
+  font-weight: 500;
+  color: #8b8b99;
+  letter-spacing: 0.5px;
+  padding-bottom: 100px;
+}
+.title-4 {
+  color: #91ac41;
+  font-size: 24px;
+}
+.under-text-4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #8b8b99;
+  letter-spacing: 0.5px;
+  padding: 0px;
+  padding-bottom: 20px;
+}
+
+.card1 {
+  background-color: #f5f6fb;
+  margin-left: 4%;
+  padding: 30px;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  width: 80%;
+  max-width: 90%;
+}
+.face {
+  border-radius: 50%;
+  width: 80px;
+  margin-left: 40%;
+}
+.card-text {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  color: #8b8b99;
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+}
+.card-author {
+  font-size: 16px;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  color: black;
+}
+.card-undertext {
+  font-size: 12px;
+  color: #8b8b99;
+  font-style: italic;
+  text-align: center;
+}
+.card2 {
+  background-color: #f5f6fb;
+  margin-left: 4%;
+  padding: 30px;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  width: 80%;
+  max-width: 90%;
+}
+.card3 {
+  background-color: #f5f6fb;
+  margin-left: 5%;
+  padding: 30px;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  width: 80%;
+  max-width: 90%;
+}
