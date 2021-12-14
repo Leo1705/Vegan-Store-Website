@@ -314,3 +314,200 @@ body {
   width: 80%;
   max-width: 90%;
 }
+.section5 {
+  display: flex;
+  max-height: 40%;
+}
+.background-side {
+  width: 67%;
+  height: 67%;
+  display: inline-block;
+  margin: 0;
+}
+.background-side img {
+  width: 100%;
+}
+.text-side {
+  max-width: 30%;
+
+  display: inline-block;
+  background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png");
+  background-position: left;
+  background-size: cover;
+  padding-left: 90px;
+}
+.main-title {
+  font-size: 42px;
+  font-weight: 700;
+  padding-top: 0px;
+}
+.text-5 {
+  max-width: 60%;
+  color: #8b8b99;
+  padding: 0px;
+}
+.mail {
+  color: #8b8b99;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border-radius: 5px;
+  padding: 15px;
+  padding-right: 100px;
+  max-width: 100%;
+  border: none;
+  margin-top: 15%;
+}
+.subscribe {
+  background-color: #f69dad;
+  color: white;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  max-width: 20%;
+  margin-top: 2%;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+.section6 {
+  background-color: #f6fcfa;
+}
+.section6-items {
+  width: 100%;
+
+  padding: 100px 0;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.section6-title {
+  color: #000000;
+  font-size: 44px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+}
+.section6-text {
+  color: #57e3b5;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-style: italic;
+
+  margin: 0;
+}
+.item1,
+.item2,
+.item3,
+.item4 {
+  padding-right: 140px;
+}
+.section7-title {
+  color: #8b8b99;
+  font-size: 42px;
+  font-weight: 500;
+  text-align: center;
+}
+iframe {
+  margin-left: 27%;
+  margin-top: -5%;
+  width: 800px;
+  height: 800px;
+}
+.section7-line {
+  width: 100px;
+  height: 1px;
+  background-color: orange;
+  margin-left: 47%;
+}
+.section8 {
+  padding-left: 150px;
+}
+.section8-items {
+  display: flex;
+  padding-bottom: 100px;
+}
+.section8-subtitle {
+  font-size: 16px;
+  color: green;
+  font-style: italic;
+  padding: 0px;
+}
+.section8-title {
+  font-size: 42px;
+  font-weight: 2000px;
+}
+.section8-text1 {
+  color: grey;
+  max-width: 90%;
+}
+.section8-undertitle {
+  font-size: 30px;
+  font-weight: 800px;
+}
+.section8-text {
+  color: grey;
+}
+.section8-subtitle2 {
+  font-size: 16px;
+  color: green;
+  font-style: italic;
+  padding: 0px;
+}
+.section8-title2 {
+  font-size: 42px;
+  font-weight: 2000px;
+}
+.section8-text2 {
+  color: grey;
+  max-width: 90%;
+}
+.section8-input {
+  color: #8b8b99;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border-radius: 5px;
+  padding: 15px;
+  padding-right: 300px;
+  display: block;
+  max-width: 200%;
+  font-size: 16px;
+  margin-top: 2%;
+  border: 1px solid rgb(211, 210, 210);
+}
+.section8-submit {
+  background-color: green;
+  color: white;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  max-width: 20%;
+  margin-top: 2%;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color: #232323;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+}
+.on-hover {
+  position: absolute;
+  top: 7%;
+  right: 23vw;
+  background-color: white;
+  box-shadow: 2px 2px 2px grey;
+  max-width: 100%;
+  padding: 10px 100px 10px 20px;
+  font-size: 14px;
+  border-top: 2px solid green;
+  max-height: 50%;
+  display: none;
+}
+.on-hover > p {
+  border-bottom: 1px solid grey;
+}
